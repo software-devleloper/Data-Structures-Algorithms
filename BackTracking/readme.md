@@ -1,10 +1,13 @@
-How does Backtracking work ?/n
+How does Backtracking work ?
+
 When you need to check all the solutions or iterate thorough each possible solution, we use backtracking. It is optimized Bruteforce & often is exponential in time complexity. 
 
-When do you use Backtracking ? /n
+When do you use Backtracking ? 
+
 Common problems where we use this - Solving puzzles like Sudoku, Maze, Combinatorial problems - permutations, combinations, Job Scheduling.
 
-Basic Code structure : /n
+Basic Code structure :
+
 Choose a step, explore further steps, backtrack on this step. 
 
 function backtrack(candidate_solution):
